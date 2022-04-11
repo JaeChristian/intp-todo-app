@@ -14,7 +14,7 @@ function App() {
     Whenever the component is initialized, the useEffect hook will run.
   */
   useEffect(()=>{
-    const temp = Tasks.concat({id: 3, completed: false, body: "Capstone"});
+    const temp = Tasks.concat({id: 2, completed: false, body: "Capstone"});
     setTasks(temp);
     console.log(Tasks, "Current tasks");
   },[]);
